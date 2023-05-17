@@ -1,0 +1,21 @@
+{
+  "name": "ngshop",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
+  },
+  "private": true,
+  "dependencies": {
+    "@nx/angular": "16.1.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "~16.0.0",
+    "@nx/workspace": "16.1.4",
+    "nx": "16.1.4",
+    "nx-cloud": "latest",
+    "typescript": "~5.0.2"
+  }
+}
